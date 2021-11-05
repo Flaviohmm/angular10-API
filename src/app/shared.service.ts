@@ -51,5 +51,5 @@ export class SharedService {
   getAllDepartmentNames(): Observable<any[]> {
     return this.http.get<any[]>(this.APIUrl + '/department/')
   }
-  
+
 }
